@@ -1,0 +1,175 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      p {
+        background-color: rgb(207, 172, 239);
+        margin-left: 50px;
+        margin-right: 50px;
+      }
+      .blog1 {
+        color: rgb(13, 12, 12);
+        border: 2px solid black;
+
+        margin-top: 100px;
+        margin-left: 50px;
+        margin-right: 50px;
+        border-radius: 10px;
+        padding: 10px;
+        align-items: center;
+      }
+      #para {
+        font-weight: bold;
+      }
+      body {
+        margin: 0;
+      }
+      .backImg {
+        background-image: url("/download.jfif");
+        background-size: cover;
+        height: 400px;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="backImg">
+      <h1 style="text-align: center">hello</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem, soluta
+        aliquid. Labore temporibus tempore debitis quisquam odit laboriosam,
+        dignissimos expedita odio. Doloribus maiores, ratione quae ullam eius
+        asperiores quis fugiat.
+      </p>
+    </div>
+    <div class="blog1">
+      <h1 style="color: brown">Hello, World!</h1>
+      <p class="">This is a simple HTML page.</p>
+      <p id="para">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum unde rem
+        consequuntur ducimus voluptate eos veniam eius mollitia exercitationem
+        cumque debitis, aperiam impedit a nihil qui perspiciatis repellendus et
+        saepe.
+      </p>
+    </div>
+
+    <div class="blog1">
+      <h1 style="color: brown">Hello, World!</h1>
+      <p class="">This is a simple HTML page.</p>
+      <p style="text-align: center">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum unde rem
+        consequuntur ducimus voluptate eos veniam eius mollitia exercitationem
+        cumque debitis, aperiam impedit a nihil qui perspiciatis repellendus et
+        saepe.
+      </p>
+    </div>
+    <main>
+      <section>
+        <table>
+          <thead>
+            <tr>
+              <th>NO.</th>
+              <th>Name</th>
+              <th>Age</th>
+              <th>City</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>1</td>
+              <td>Bill</td>
+              <td>40</td>
+              <td>New York</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>Mark</td>
+              <td>30</td>
+              <td>Los Angeles</td>
+            </tr>
+            <tr>
+              <td>3</td>
+              <td>Zuku</td>
+              <td>28</td>
+              <td>Chicago</td>
+            </tr>
+            <tr>
+              <td>4</td>
+              <td>Alice</td>
+              <td>35</td>
+              <td>Houston</td>
+            </tr>
+          </tbody>
+          <tfoot></tfoot>
+        </table>
+      </section>
+      <section>
+        <form>
+          <h2>Fill this Form</h2>
+          <label for="name"
+            >Your Name:
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+            />
+          </label>
+          <label for="email"
+            >Your Email:
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your email"
+            />
+          </label>
+          <fieldset>
+            <legend>Choose your favorite tea:</legend>
+            <label for="Tea">
+              <input type="radio" name="tea" id="Tea" value="Tea" />
+              Tea</label
+            >
+            <label for="coffee">
+              <input type="radio" name="tea" id="coffee" value="Coffee" />
+              Coffee</label
+            >
+            <label for="milk">
+              <input type="radio" name="tea" id="milk" value="Milk" />
+              Milk</label
+            >
+          </fieldset>
+          <fieldset>
+            <legend>Additional Information:</legend>
+            <label for="suger">
+              <input type="checkbox" name="suger" id="suger" value="Suger" />
+              Suger</label
+            >
+            <label for="milk">
+              <input type="checkbox" name="milk" id="milk" value="Milk" />
+              Milk</label
+            >
+            <label for="honey">
+              <input type="checkbox" name="honey" id="honey" value="Honey" />
+              Honey</label
+            >
+          </fieldset>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            placeholder="Enter your message"
+          ></textarea>
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
