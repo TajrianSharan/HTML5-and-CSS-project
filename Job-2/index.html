@@ -108,7 +108,7 @@
           <tfoot></tfoot>
         </table>
       </section>
-      <section>
+      <!-- <section>
         <form>
           <h2>Fill this Form</h2>
           <label for="name"
@@ -168,6 +168,34 @@
           ></textarea>
           <button type="submit">Submit</button>
           <button type="reset">Reset</button>
+        </form>
+      </section> -->
+      <section>
+        <form>
+          <label for="Your name"
+            >Your Name<input name="name" type="text" placeholder="Your name"
+          /></label>
+          <label for="Your email"
+            >Your email<input
+              name="email"
+              type="email"
+              placeholder="Your email"
+          /></label>
+          <fieldset>
+            <label for="tea">tea<input type="radio" name="Tea" /></label>
+            <label for="Coffee">Coffee<input type="radio" name="Tea" /></label>
+            <label for="Milk">Milk<input type="radio" name="Tea" /></label>
+          </fieldset>
+          <fieldset>
+            <legend>Additional Infirmation</legend>
+            <label for="tea"><input type="radio" name="Suger" />Suger</label>
+            <label for="Honey"><input type="radio" name="honey" />Honey</label>
+            <label for="water"><input type="radio" name="water" />Water</label>
+          </fieldset>
+          <textarea id="comments" name="comments" rows="4" cols="10">
+          </textarea>
+          <button type="reset">Reset</button>
+          <button type="submit">Submit</button>
         </form>
       </section>
     </main>
